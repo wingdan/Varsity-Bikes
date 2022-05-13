@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    padding-right: 20px;
+    /* transform: translateX(-125%); */
+}
+
+
+#formheader h1{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#newsletter{
+    padding-top: 50px;
+    padding-bottom: 72px;
+    text-align: center;
+    /* background-color: #d0d0d0; */
+}
+
+.getintouch {
+    border: 1px solid #e1e0e0;
+    width: 80vw;
+    display:flex;
+    flex-direction:row;
+    transform: translateX(15%);
+}
+
+form {
+  display:flex;
+  flex-direction:row;
+  width: 100%;
+}
+
+.getintouch-input {
+    background: #f8f8f8;
+    color: black;
+    font-size: 0.75em;
+    border: 0;
+    padding: 0px 2px 0px 20px;
+    flex-grow:2;
+}
+
+.getintouch-input::-webkit-input-placeholder {
+    color: #b9b9b9;
+}
+
+.getintouch-image {
+    padding: 13px 20px 13px 0px;
+    padding-left: 15px;
+    height: auto;
+}
+
+.subscribe {
+    border: 1px solid #e1e0e0;
+    width: 50vw;
+    display:flex;
+    flex-direction:row;
+    transform: translateX(50%);
+}
+
+.subscribe-input {
+    background: #f8f8f8;
+    color: black;
+    font-size: 0.75em;
+    border: 0;
+    padding: 0px 2px 0px 20px;
+    flex-grow:2;
+    text-align: center;
+}
+
+.subscribe-input::-webkit-input-placeholder {
+    color: #b9b9b9;
+}
+
+.subscribe-image {
+    padding: 13px 20px 13px 0px;
+    padding-left: 15px;
+    height: auto;
+}
+
+
+
+.allfooter {
+    width: 80vw;
+    clear: both;
+    margin: 0 auto; /* center it */
+    /* background-color: #b9b9b9; */
+}
+
+.allfooter h6{
+    display: inline;
+}
+
+.privacy{
+    padding-left: 20vw;
+}
+.tos{
+    padding-left: 1vw;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+    transform: translateX(10vw);
+    justify-content: space-evenly;
+    flex-wrap: wrap
+
+}    
+
+
+.products a{
+    align-items: stretch;
+}
+
+.products h6{
+    padding-top: 25px;
+    margin: auto;
+}
+
+.products p{
+    margin: auto;
+    color: #727272;
+}
+
+
+.parallax1 {
+    /* The image used */
+    background-image: url("/images/background.png");
+
+    /* Set a specific height */
+    min-height: 700px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
